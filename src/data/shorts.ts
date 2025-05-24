@@ -7,17 +7,17 @@ export interface Short {
 
 export const shortsData: Short[] = [
   {
-    short_url: "https://www.youtube.com/shorts/dQw4w9WgXcQ",
+    short_url: "https://www.youtube.com/shorts/aPdo14h_G3E",
     title: "Amazing Dance Moves",
     tags: ["dance", "entertainment", "trending", "viral"]
   },
   {
-    short_url: "https://www.youtube.com/shorts/jNQXAC9IVRw",
+    short_url: "https://www.youtube.com/shorts/Q7GbFYmEfHw",
     title: "Cooking Quick Tips",
     tags: ["cooking", "food", "tutorial", "lifestyle"]
   },
   {
-    short_url: "https://www.youtube.com/shorts/9bZkp7q19f0",
+    short_url: "https://www.youtube.com/shorts/yZd8c7jgGjg",
     title: "Tech Review",
     tags: ["technology", "review", "gadgets", "tech"]
   },

@@ -5,13 +5,12 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  const env = loadEnv(mode, process.cwd(), '')
   return {
     server: {
       host: "::",
       port: 8080,
     },
-    base: env.VITE_BASE_URL || '/',
+    base: '/shorts',
     build: {
       outDir: "docs",
     },

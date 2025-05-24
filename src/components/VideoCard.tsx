@@ -18,7 +18,7 @@ export const VideoCard = ({ short }: VideoCardProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoId = extractVideoId(short.short_url);
   const thumbnailUrl = videoId ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` : null;
-  const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=1&rel=0&modestbranding=1` : null;
+  const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1&rel=0&modestbranding=1` : null;
 
   const handlePlay = () => {
     setIsPlaying(true);
